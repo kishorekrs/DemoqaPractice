@@ -6,8 +6,10 @@
       <class name="DemoQa.DemoQaPractice.WidgetsPractice">
         <methods>
           <include name="open_widgets_menu"/>
+          <include name="test_tab_menus"/>
+          <include name="select_Datepicker_menu"/>
+          <include name="select_open_tabs_menu"/>
           <include name="openBrowser"/>
-          <include name="test_autocomplete"/>
         </methods>
       </class> <!-- DemoQa.DemoQaPractice.WidgetsPractice -->
     </classes>

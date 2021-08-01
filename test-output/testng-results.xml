@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-16T11:27:55 IST" name="Default suite" finished-at="2021-07-16T11:28:08 IST" duration-ms="13305">
+  <suite started-at="2021-07-25T21:23:35 IST" name="Default suite" finished-at="2021-07-25T21:23:54 IST" duration-ms="19018">
     <groups>
     </groups>
-    <test started-at="2021-07-16T11:27:55 IST" name="Default test" finished-at="2021-07-16T11:28:08 IST" duration-ms="13305">
+    <test started-at="2021-07-25T21:23:35 IST" name="Default test" finished-at="2021-07-25T21:23:54 IST" duration-ms="19018">
       <class name="DemoQa.DemoQaPractice.WidgetsPractice">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@63a12c68]" started-at="2021-07-16T11:27:55 IST" name="openBrowser" finished-at="2021-07-16T11:28:03 IST" duration-ms="7828" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@2a54a73f]" started-at="2021-07-25T21:23:35 IST" name="openBrowser" finished-at="2021-07-25T21:23:53 IST" duration-ms="17978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="open_widgets_menu()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@63a12c68]" started-at="2021-07-16T11:28:03 IST" name="open_widgets_menu" finished-at="2021-07-16T11:28:03 IST" duration-ms="147" status="PASS">
+        <test-method signature="open_widgets_menu()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@2a54a73f]" started-at="2021-07-25T21:23:53 IST" name="open_widgets_menu" finished-at="2021-07-25T21:23:53 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_widgets_menu -->
-        <test-method signature="test_autocomplete()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@63a12c68]" started-at="2021-07-16T11:28:03 IST" name="test_autocomplete" finished-at="2021-07-16T11:28:08 IST" depends-on-methods="DemoQa.DemoQaPractice.WidgetsPractice.open_widgets_menu" duration-ms="5266" status="PASS">
+        <test-method signature="select_open_tabs_menu()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@2a54a73f]" started-at="2021-07-25T21:23:53 IST" name="select_open_tabs_menu" finished-at="2021-07-25T21:23:54 IST" depends-on-methods="DemoQa.DemoQaPractice.WidgetsPractice.open_widgets_menu" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_autocomplete -->
+        </test-method> <!-- select_open_tabs_menu -->
+        <test-method signature="test_tab_menus()[pri:0, instance:DemoQa.DemoQaPractice.WidgetsPractice@2a54a73f]" started-at="2021-07-25T21:23:54 IST" name="test_tab_menus" finished-at="2021-07-25T21:23:54 IST" depends-on-methods="DemoQa.DemoQaPractice.WidgetsPractice.select_open_tabs_menu" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_tab_menus -->
       </class> <!-- DemoQa.DemoQaPractice.WidgetsPractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
